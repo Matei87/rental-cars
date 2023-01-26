@@ -26,7 +26,7 @@ export const Footer: FC = () => {
     <FooterContainer id='contact'>
       <InnerContainer>
         <AboutContainer>
-          <NavLink to='#home' reloadDocument>
+          <NavLink to='rental-cars#home' reloadDocument>
             <Logo color='white' bgColor='dark' />
           </NavLink>
           <AboutText>
@@ -39,27 +39,27 @@ export const Footer: FC = () => {
           <HeaderTitle>Our Links</HeaderTitle>
           <LinksList>
             <ListItem>
-              <Link to='#home' reloadDocument>
+              <Link to='rental-cars#home' reloadDocument>
                 Home
               </Link>
             </ListItem>
             <ListItem>
-              <Link to='#about' reloadDocument>
+              <Link to='rental-cars#about' reloadDocument>
                 About Us
               </Link>
             </ListItem>
             <ListItem>
-              <Link to='#services' reloadDocument>
+              <Link to='rental-cars#services' reloadDocument>
                 Services
               </Link>
             </ListItem>
             <ListItem>
-              <Link to='#cars' reloadDocument>
+              <Link to='rental-cars#cars' reloadDocument>
                 Models
               </Link>
             </ListItem>
             <ListItem>
-              <Link to='#blog' reloadDocument>
+              <Link to='rental-cars#blog' reloadDocument>
                 Blog
               </Link>
             </ListItem>
@@ -69,23 +69,25 @@ export const Footer: FC = () => {
           <HeaderTitle>Other Links</HeaderTitle>
           <LinksList>
             <ListItem>
-              <Link to='/faq'>FAQ</Link>
+              <Link to='rental-cars/faq'>FAQ</Link>
             </ListItem>
             <ListItem>
-              <Link to='#contact' reloadDocument>
+              <Link to='rental-cars#contact' reloadDocument>
                 Contact Us
               </Link>
             </ListItem>
             <ListItem>
-              <Link to='#support' reloadDocument>
+              <Link to='rental-cars#support' reloadDocument>
                 Support
               </Link>
             </ListItem>
             <ListItem>
-              <Link to='/privacy-policy'>Privacy Policy</Link>
+              <Link to='rental-cars/privacy-policy'>Privacy Policy</Link>
             </ListItem>
             <ListItem>
-              <Link to='/terms-and-conditions'>Terms &amp; Conditions</Link>
+              <Link to='rental-cars/terms-and-conditions'>
+                Terms &amp; Conditions
+              </Link>
             </ListItem>
           </LinksList>
         </SectionContainer>

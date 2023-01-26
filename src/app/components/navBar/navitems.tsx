@@ -13,22 +13,22 @@ export const NavItems: FC = () => {
       <Menu right styles={menuStyles}>
         <ListContainer>
           <NavItem menu>
-            <NavLink to='#home' reloadDocument>
+            <NavLink to='rental-cars#home' reloadDocument>
               Home
             </NavLink>
           </NavItem>
           <NavItem menu>
-            <NavLink to='#cars' reloadDocument>
+            <NavLink to='rental-cars#cars' reloadDocument>
               Cars
             </NavLink>
           </NavItem>
           <NavItem menu>
-            <NavLink to='#services' reloadDocument>
+            <NavLink to='rental-cars#services' reloadDocument>
               Services
             </NavLink>
           </NavItem>
           <NavItem menu>
-            <NavLink to='#contact' reloadDocument>
+            <NavLink to='rental-cars#contact' reloadDocument>
               Contact Us
             </NavLink>
           </NavItem>
@@ -40,22 +40,22 @@ export const NavItems: FC = () => {
   return (
     <ListContainer>
       <NavItem>
-        <NavLink to='#home' reloadDocument>
+        <NavLink to='rental-cars#home' reloadDocument>
           Home
         </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='#cars' reloadDocument>
+        <NavLink to='rental-cars#cars' reloadDocument>
           Cars
         </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='#services' reloadDocument>
+        <NavLink to='rental-cars#services' reloadDocument>
           Services
         </NavLink>
       </NavItem>
       <NavItem>
-        <NavLink to='#contact' reloadDocument>
+        <NavLink to='rental-cars#contact' reloadDocument>
           Contact Us
         </NavLink>
       </NavItem>

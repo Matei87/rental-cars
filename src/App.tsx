@@ -1,6 +1,6 @@
 import { FC } from 'react';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import HomePage from './app/pages/Homepage';
+import Homepage from './app/pages/Homepage';
 import Terms from './app/pages/Terms';
 import Privacy from './app/pages/Privacy';
 import { Navbar } from './app/components/navBar';
@@ -18,7 +18,8 @@ const App: FC = () => {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='rental-cars' element={<HomePage />}>
+            <Route path='rental-cars'>
+              <Route index element={<Homepage />} />
               <Route path='terms-and-conditions' element={<Terms />} />
               <Route path='privacy-policy' element={<Privacy />} />
               <Route path='faq' element={<Faq />} />
