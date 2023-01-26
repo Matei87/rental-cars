@@ -8,7 +8,7 @@ import { LogoContainer, LogoText, Image } from './logo.styled';
 export const Logo: FC<ILogoProps> = (props: ILogoProps) => {
   const { color, bgColor } = props;
   return (
-    <NavLink to='/' reloadDocument>
+    <NavLink to='rental-cars' reloadDocument>
       <LogoContainer>
         <Image>
           <img

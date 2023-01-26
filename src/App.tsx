@@ -18,10 +18,11 @@ const App: FC = () => {
         <BrowserRouter>
           <Navbar />
           <Routes>
-            <Route path='rental-cars' element={<HomePage />} />
-            <Route path='terms-and-conditions' element={<Terms />} />
-            <Route path='privacy-policy' element={<Privacy />} />
-            <Route path='faq' element={<Faq />} />
+            <Route path='rental-cars' element={<HomePage />}>
+              <Route path='terms-and-conditions' element={<Terms />} />
+              <Route path='privacy-policy' element={<Privacy />} />
+              <Route path='faq' element={<Faq />} />
+            </Route>
             <Route
               path='*'
               element={<Navigate to='rental-cars' replace={true} />}
