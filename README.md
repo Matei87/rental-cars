@@ -1,6 +1,6 @@
 # Rentalcars
 
-Rentalcars is a rental website where you can rent cars.
+Rentalcars is a rental website where you can rent cars
 
 # Frontend
 
